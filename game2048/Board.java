@@ -85,7 +85,6 @@ public class Board {
                                 oldPosition.setValue(board[i][k].getValue() * 2);
                                 this.positionSwap.put(oldPosition, newPosition);
                                 this.move(board[i][j], board[i][k]);
-                                this.move(board[i][j], board[i][k]);
                                 moved = true;
                                 break;
                             }
